@@ -1,0 +1,151 @@
+/* nav bar */
+#nav-block{
+    background-color:#d5d7da!important;
+    
+}
+.nav-link{
+    color: black !important;
+}
+
+/* landing page */
+.index-greet{
+    color: black;
+    font-family: 'Srisakdi', cursive;
+}
+.landing-index{
+    background: url(../images/light.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.greeting{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding-top: 800px;
+    font-size: 5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+/* list of member */
+.list-body{
+    background-image: url(https://images.unsplash.com/photo-1508401531113-289ab4692d3b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed522b65fcf3071d59137f8f6e94369e&auto=format&fit=crop&w=2700&q=80);
+}
+.userProfile{
+    height: 500px;
+    height: 300px;
+    width: auto;
+}
+.profile{
+    background-color: bisque;
+    border: solid;
+    padding:30px;
+    margin: 10px;
+    min-width: 300px;
+}
+.greet{
+    text-align: center;
+    border: 30px;
+}
+.memberlist{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 100px;
+}
+
+.profile:hover{
+    background: pink;
+}
+.profile i:hover{
+    color: red;
+}
+i:hover{
+    color: blueviolet;
+}
+@media only screen and (max-width: 1800px) {
+    .memberlist{
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .memberlist{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .memberlist{
+        grid-template-columns: 100%;
+
+    }
+}
+
+/* Strong */
+
+.userProfile_strong{
+    height: 450px;
+    width: auto;
+    padding-left:  150px;
+    padding-top:  50px;
+}
+.profile_strong{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.upperContent{
+    padding-left:100px;
+}
+
+i:hover{
+    color: pink;
+}
+.upperContent h1:hover{
+    color: blue;
+}
+@media only screen and (max-width: 1000px) {
+    img{
+        width: 100%;
+    }
+    .profile_strong{
+        grid-template-columns: 100%;
+    }
+}
+
+/* survey */
+.cuddle{
+    width: 1000px;
+    height: quto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.quizContent{
+   padding-left:200px;
+   padding-left:50;
+}
+.description{
+    padding:100px;
+}
+.lovequize{
+    text-align: center;
+    padding-bottom: 0;
+}
+.intro_survey{
+    font-family: 'Tangerine', serif;
+    font-size: 20px;
+  }
+i:hover{
+    color: palegreen;
+  }
+@media only screen and (max-width: 768px) {
+    .cuddle{
+        width: 100%;
+    }
+}
